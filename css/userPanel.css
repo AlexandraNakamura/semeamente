@@ -1,0 +1,139 @@
+ body div.containerUserPanel header div.lpHeader {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 1vw;
+  border-radius: 50%;
+}
+
+
+body div.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: var(--color-background-green3);
+  width: 20%;
+  height: 300vh;
+	box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.14), 0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+body div.tab button {
+  display: block;
+  background-color: #47B3B3;
+  color: white;
+  padding: 22px 16px;
+  width: 100%;
+	height: 20vh;
+	mix-blend-mode: multiply;
+	border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+	font-size: 24px;
+}
+
+body div.tab button:hover {
+  background-color: #ddd;
+}
+
+body div.tab button.active {
+  background-color:var(--color-background-green1);
+}
+
+body div.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  width: 75%;
+  border-left: none;
+  height: 100vh;
+	padding-top: 2%;
+	padding-left: 8%;
+}
+
+.tabcontent h3 {
+	color: var(--color-text-info02);
+}
+
+#ProgressBar{
+	color: var(--color-text-unselected);
+	padding-top: 1rem;
+	margin-left: -2.5rem;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#barraProgresso {
+	width:  55vw;
+	height: 5vh;
+	border: 2px solid #979797;
+	border-radius: 5rem;
+	text-align: center;
+	padding-top: 0.25vw;
+	background: linear-gradient(90deg, rgba(242,157,215,1) 0%, rgba(242,157,215,1) 47%, rgba(255,255,255,1) 47%);
+	box-shadow: 0px 8px 10px rgba(77, 77, 77, 0.14), 0px 3px 14px rgba(77, 77, 77, 0.12), 0px 4px 5px rgba(77, 77, 77, 0.2);
+	margin-bottom: 5vh;
+}
+
+.niveis {
+	padding: 0.5vw 1vw 1vw 1vw;
+}
+
+.ultimaAula {
+	color: var(--color-text-info02);
+	font-weight: 500;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+/*AVISOS*/
+
+#avisosTitle {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	color: var(--color-text-info02);
+	padding-bottom: 2vh;
+}
+
+.Avisos {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.cardAvisos {
+	width: 420px;
+	height: 144px;
+	background: var(--color-background-green4);
+	box-shadow: 0px 8px 10px rgba(77, 77, 77, 0.14), 0px 3px 14px rgba(77, 77, 77, 0.12), 0px 4px 5px rgba(77, 77, 77, 0.2);
+	border-radius: 20px;
+	padding: 3%;
+	margin-bottom: 5vh;
+}
+
+.cardTitle {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	padding-bottom: 2vh;
+}
+
+.cardSubtitle {
+	padding-bottom: 2vh;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.cardText {
+	padding-bottom: 2vh;
+	font-size: 16px;
+}

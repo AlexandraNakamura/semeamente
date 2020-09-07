@@ -1,4 +1,4 @@
-body nav {
+body nav, body div.containerUserPanel {
 	width: 100%;
 	background: var(--color-background-purple2);
 	-webkit-box-shadow: 0px 16px 24px -20px rgba(137, 33, 104, 0.14);
@@ -12,7 +12,7 @@ body nav {
 	align-content: center;
 }
 
-body nav div.lpNavBar {
+body nav div.lpNavBar, body div.containerUserPanel header.containerHeader {
 	width: 90.27%;
 	height: auto;
 	margin: 0 auto;
@@ -21,9 +21,8 @@ body nav div.lpNavBar {
 	align-content: center;
 }
 
-body nav div.lpNavBar a.logo {
+body nav div.lpNavBar a.logo,  body div.containerUserPanel header div.lpHeader a {
 	width: 11.53vw;
-	height: 4.265vh;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: bold;
@@ -60,15 +59,304 @@ body nav div.lpNavBar div.menuNavbar a.boxLogin {
 	border-radius: 4px;
 	font-size: 1.15rem;
 	line-height: 1.3rem;
-	padding: .85rem 3rem;
+	padding: .85rem 3rem 0;
 	display: flex;
 	justify-content: center;
 	align-content: center;
 	text-align: center;
-	margin: .625rem 0;
+	margin: .625rem 0 .725rem;
 }
 
 a.logo:link, a.logo:visited, a.logo:active, div.menuNavbar a {
 	text-decoration: none;
 	}
 
+body header.containerHeader, body section.containerMoreInfor {
+	max-width: 1080px;
+	display: flex;
+	justify-content: space-between;
+	margin: 2.5rem auto 0;
+
+}
+
+body header.containerHeader div {
+	width: 100%;
+	display: grid;
+	align-content: center;
+}
+
+body header.containerHeader div h1 {
+	width: 100%;
+	display: block;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 2.25rem;
+	line-height: 2.625rem;
+	color: var(--color-text-info02);
+
+}
+
+body header.containerHeader div h1 span.textName {
+	color: var(--color-background-green2);
+	font-weight: bold;
+
+}
+
+body header.containerHeader div a.buttonInfor { 
+	width: 12.5rem;
+	height: 3.125rem;
+	display: flex;
+	flex-direction: row;
+	margin-top: 1.875rem;
+	padding: .9rem 3.375rem;
+	background: var( --color-background-purple1);
+	box-shadow: 0px 4px 5px rgba(77, 77, 77, 0.14), 0px 8px 10px rgba(77, 77, 77, 0.02),0px 3px 14px rgba(77, 77, 77, 0.12);    
+	border-radius: 4px;
+	color: var( --color-text-title);
+	text-decoration: none;
+}
+
+body header.containerHeader img {
+	width: 95%;
+}
+
+body section.containerSectionHow {
+	width: 100%;
+	background-image: url("../image/LP_frase 1.png");
+	background-repeat: round;
+	display: flex;
+}
+
+body section div.sectionHow {
+	width: 100%;
+}
+
+
+body section div.sectionHowtext {
+	max-width: 1080px;
+	display: block;
+	justify-content: space-between;
+	margin: 0 auto;
+	
+}
+
+body section div.sectionHowtext h2{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 2.25rem;
+	line-height: 2.625rem;
+	text-align: center;
+	margin: 15rem 0 1.5rem;
+	color: var( --color-text-title);
+}
+
+body section div.sectionHowtext p {
+	padding: 0.875rem 3.375rem;
+	width: 12.75rem;
+	height: 3.0625rem;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	background: var( --color-background-purple1);
+	box-shadow: 0px 8px 10px rgba(140, 35, 107, 0.14), 0px 3px 14px rgba(140, 35, 107, 0.12), 0px 4px 5px rgba(140, 35, 107, 0.2);
+	border-radius: 4px;
+	color: var( --color-text-title);
+	margin: 0rem auto 10rem;
+	text-decoration: none;
+}
+
+body section div.sectionHowtext a:link, body section div.sectionHowtext a:visited {
+  text-decoration: none;
+}
+
+
+body section.containerWhatAccses, body div.howStuddent { 
+	max-width: 1080px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+body section.containerWhatAccses div {
+	width: 100%;
+	margin: 70px auto;
+}
+
+body section.containerWhatAccses div h3, body section.containerHowStuddent div h3 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 42px;
+	color: var(--color-text-info03);
+	display: block;
+	margin: 1rem;
+}
+
+body section.containerHowStuddent div h3 {
+		color: var(--color-text-info01);
+		margin: 4.375rem auto 0;
+}
+
+body section.containerWhatAccses div.colIcon01{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+body section.containerWhatAccses div.card {
+	width: 300px;
+	display: flex;
+  flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: center;
+	margin: 1rem;
+}
+
+body section.containerWhatAccses div.card p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color:var(	--color-text-unselected);
+	margin-top: 12px;
+}
+
+body section.containerHowStuddent {
+	width: 100%;
+	background-color: var(--color-background-purple4);
+	background-repeat: round;
+	display: flex;
+}
+
+body section.containerHowStuddent div.colIcon01 {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin-bottom: 4.375rem;
+}
+
+body section.containerHowStuddent div.card {
+	width: 310px;
+	display: flex;
+  flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: center;
+	margin: 1.25rem 1rem 0 0;
+	text-align: center;
+	border: 2px solid var(--color-text-info01);
+	border-radius: 20px;
+	box-sizing: border-box;
+
+}
+
+body section.containerHowStuddent div.card img {
+	width: 9.375rem;
+	height: 9.375rem;
+	border-radius: 50%;
+	display: flex;
+  flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: center;
+	margin-top: 1.5rem;
+}
+
+body section.containerHowStuddent div.containertext {
+	width: 270px;
+	margin: .9rem 1.2rem 1.5rem;
+}
+
+body section.containerHowStuddent div.containertext h5 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 1.2rem;
+	text-align: center;
+	color: var(--color-text-info01);
+}
+
+body section.containerHowStuddent div.containertext p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.2rem;
+	color: var(--color-text-info01);
+	text-align: left;
+	margin: .8rem 0;
+}
+
+body section.containerHowStuddent img.nextStuddent {
+	width: 3.125rem;
+	height: 3.125rem;
+	display: flex;
+	align-content: center;
+	margin-top: 15.3125rem;
+}
+
+body section.containerMoreInfor div.moreInforText {
+	width: 35.2%;
+    display: grid;
+    align-content: center;
+}
+
+
+body section.containerMoreInfor div.moreInforText h5 {
+	width: 100%;
+	display: block;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 2.25rem;
+	line-height: 2.625rem;
+	color: var(--color-text-info02);
+}
+
+body section.containerMoreInfor div.moreInforText p { 
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.5rem;
+	line-height: 1.75rem;
+}
+
+
+body section.containerMoreInfor div.moreInforText a {
+width: 12.5rem;
+    height: 3.125rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.875rem;
+    padding: .9rem 3.375rem;
+    background: var( --color-background-purple1);
+    box-shadow: 0px 4px 5px rgba(77, 77, 77, 0.14), 0px 8px 10px rgba(77, 77, 77, 0.02), 0px 3px 14px rgba(77, 77, 77, 0.12);
+    border-radius: 4px;
+    color: var( --color-text-title);
+    text-decoration: none;
+	
+}
+
+
+body footer div.containerFooter {
+	width: 100%;
+	height: 4.375rem;
+	background: var(--color-background-purple2);
+}
+
+body footer div.containerFooter p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.2rem;
+	color: var( --color-text-title);
+	text-align: center;
+	padding: 1.5rem; 
+}
