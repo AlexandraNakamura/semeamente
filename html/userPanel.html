@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Descubra como ter uma boa hospedagem pós pandemia |">
+	<meta name="keywords" content="mulheres, tecnologia, juntas, aulas, mentoria, assistencia">
+	<title>semeamente</title>
+	<link href="../css/main.css" rel="stylesheet" type="text/css" />
+	<link href="../css/landingPage.css" rel="stylesheet" type="text/css" />
+	<link href="../css/userPanel.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+	 rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="../js/scripts.js" type="text/javascript"></script>
+
+</head>
+<body>
+	<div class="containerUserPanel">
+		<header class="containerHeader">
+			<div class="lpHeader">
+				<a class="logo" href="">semeamente <img src="../image/usuaria01.png" alt="Avatar" class="avatar"></a>
+				
+			</div>		
+		</header>
+	</div>
+		<div class="tab">
+			<button class="tablinks" onclick="abrirTela(event, 'Painel')" id="defaultOpen">Painel</button>
+			<button class="tablinks" onclick="abrirTela(event, 'Aulas')">Aulas</button>
+			<button class="tablinks" onclick="abrirTela(event, 'Mentoras')">Mentoras</button>
+			<button class="tablinks" onclick="abrirTela(event, 'Projetos')">Projetos</button>
+		</div>
+		
+		<div id="Painel" class="tabcontent">
+			<a class="ultimaAula" href="">Bootstrap</a>
+			
+			<div id="ProgressBar">
+				<span id="nivelAtual" class="niveis">nv 3</span>
+				<span><div id="barraProgresso">47%</div></span>
+				<span id="proximoNivel" class="niveis">nv 4</span>
+			</div>
+
+			<section>
+				
+				<h3 id="avisosTitle">Avisos</h3>
+				
+				<div class="Avisos">
+					<span class="cardAvisos">
+						<h3 class="cardTitle">Mentoria hoje com Luciana T.</h3>
+						<h4 class="cardSubtitle"><strong>Hora:</strong> 10:00</h4>
+						<p class="cardText"><strong>Link:</strong> https://us04web.zoom.us/j/73214350</p>
+					</span>
+					<span class="cardAvisos" style="background: white;">
+						<h3 class="cardTitle">Você tem uma atualização de portfólio a fazer.</h3>
+						<p class="cardText">Adicionar atualização de portfólio do módulo CSS.</p>
+					</span>
+				</div>
+			</section>
+			
+			<hr>	
+		</div>
+		
+		<div id="Aulas" class="tabcontent">
+			<div class="cardAulas">
+				<img src="" alt="" class="cardImg">
+				<h3 class=""></h3>
+				<p class="">
+
+			</div>
+		</div>
+		
+		<div id="Mentoras" class="tabcontent">
+			Mentoras
+		</div>
+
+		<div id="Projetos" class="tabcontent">
+			Projetos
+		</div>
+		
+		<script>
+			document.getElementById("defaultOpen").click();
+		</script>
+</body>
+</html>
