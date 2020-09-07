@@ -1,0 +1,74 @@
+body nav {
+	width: 100%;
+	background: var(--color-background-purple2);
+	-webkit-box-shadow: 0px 16px 24px -20px rgba(137, 33, 104, 0.14);
+    -moz-box-shadow: 0px 6px 30px rgba(137, 33, 104, 0.12);
+    box-shadow: 0px 8px 10px rgba(137, 33, 104, 0.2);
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+body nav div.lpNavBar {
+	width: 90.27%;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+body nav div.lpNavBar a.logo {
+	width: 11.53vw;
+	height: 4.265vh;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+	margin: 1.31rem 0 1.56rem;
+	color: var(--color-background-green4);
+}
+
+body nav div.lpNavBar div.menuNavbar {
+	width: 37.15vw;
+	height: auto;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.875rem;
+	line-height: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	color: var(--color-text-title);
+}
+
+body nav div.lpNavBar div.menuNavbar a {
+	color: var( --color-text-title);
+	margin: 1.81rem 0 1.56rem;
+}
+
+body nav div.lpNavBar div.menuNavbar a.boxLogin {
+	width: 9.7225vw;
+	height: auto;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 4px;
+	font-size: 1.15rem;
+	line-height: 1.3rem;
+	padding: .85rem 3rem;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	margin: .625rem 0;
+}
+
+a.logo:link, a.logo:visited, a.logo:active, div.menuNavbar a {
+	text-decoration: none;
+	}
+
