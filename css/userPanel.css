@@ -6,11 +6,36 @@
 	align-content: center;
 }
 
+/* HEADER */
+#logo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .avatar {
   vertical-align: middle;
-  width: 1vw;
+  max-width: 5vw;
   border-radius: 50%;
+	padding-left: 1vw;
+	margin-bottom: 0;
 }
+
+.dropdown {
+	display: flex;
+	float: right;
+	max-width: 5vw;
+	flex-wrap: nowrap;
+}
+
+.dropbtn{
+	background: none;
+	text-decoration: none;
+	color: white;
+	width: 4vw;
+	font-size: 16px;
+}
+/*FIM HEADER*/
 
 
 body div.tab {
@@ -137,3 +162,15 @@ body div.tabcontent {
 	padding-bottom: 2vh;
 	font-size: 16px;
 }
+
+#Aulas {
+	max-width: 50vw;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.cardAulas {
+	max-width: 420px;
+}
+
